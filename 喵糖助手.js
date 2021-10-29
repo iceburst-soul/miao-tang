@@ -63,31 +63,7 @@ function browse_10times(){
         }
     }
     console.log('浏览10次任务已完成')
-}
 
-// function main() {
-//     var thread1 = threads.start(function(){
-//         text('赚糖领红包').findOne().click();
-//         sleep(1500);
-//         while (true) {
-//             var a = text('去浏览').findOne(5000);
-//             if (a == null) {
-//                 alert("浏览任务已执行完成o(^▽^)o");
-//                 sleep(500);
-//                 exit();
-//             } else {
-//                 a.click();
-//                 if (text("浏览得奖励").findOne(10000) == null) {
-//                     sleep(16000)
-//                     back_upper();
-//                 } else {
-//                     sleep(15000);
-//                     back_upper();
-//                 }
-//             }
-//         }
-//     })
-// }
 function main(){
     text('赚糖领红包').findOne().click();
     sleep(1500);
